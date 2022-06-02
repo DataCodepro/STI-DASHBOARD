@@ -170,7 +170,7 @@ with dataset:
             st.plotly_chart(fig)
         elif select == 'SECTORS AND THEIR INFORMATION SOURCE -CONSULTANTS, COMMERCIAL LABS OR PRIVATE R&D INSTITUTES':
             st.subheader('SECTORS AND THEIR INFORMATION SOURCE -CONSULTANTS, COMMERCIAL LABS OR PRIVATE R&D INSTITUTES')
-            fig = px.histogram(df, x="sector", color="sinfo5",width=800, height=500)
+            fig = px.histogram(df, x="sector", color="sinfo5",width=500, height=500)
             fig.update_layout(margin= dict(l=20, r=20, t=20, b=20),
                                 paper_bgcolor="#4233FF ",)
             st.plotly_chart(fig)
