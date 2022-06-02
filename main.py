@@ -8,7 +8,8 @@ import plotly.express as px
 header = st.container()
 dataset = st.container()
 with header:
-    st.title('''NATIONAL CENTRE FOR TECHNOLOGY MANAGEMENT STI INDICATORS DASHBOARD''')
+    st.title('''NATIONAL CENTRE FOR TECHNOLOGY MANAGEMENT 
+    STI INDICATORS DASHBOARD''')
     st.text('''*The sample was randomly selected based on the list of establishments with at least 10 employees obtained from the National Bureau of Statistics (NBS) and the Nigerian Stock Exchange. 
 * The Stock Exchange list includes only formal firms whereas the NBS list includes both formal and informal firms. These two sources were cross-referenced and any firm listed in both sources was automatically selected into the sample. The logic is that if a listed firm is still surviving. Note that firm exit rate is particularly high in Nigeria. 
 * Subsequently, all other firms were stratified into six geographical zones (North-East, 
